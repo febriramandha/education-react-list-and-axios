@@ -2,10 +2,10 @@ import axios from "axios";
 
 // Di sini kita membuat instance dari axios
 const tmdbInstance = axios.create({
-  baseURL: "https://api.themoviedb.org/3",
+  baseURL: "https://api.themoviedb.org/3/trending/all/day?",
   params: {
     // TODO: Jangan lupa masukkan API_KEY yang benarnya di sini yah !
-    api_key: "INSERT_API_KEY_HERE",
+    api_key: "7a8f11d3301e6e5e2bcbd717ee84f933",
   },
 });
 
